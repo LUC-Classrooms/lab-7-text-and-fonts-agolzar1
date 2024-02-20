@@ -9,7 +9,6 @@ function setup() {
 
 function draw(){
   background(200);
-  //add an if() statement here
   if(mouseIsPressed) {
   textSize(20);
   text("I love chicken", 20, 60);
