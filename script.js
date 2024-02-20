@@ -4,14 +4,18 @@
 
 function setup() {
   createCanvas(640, 240);
-  textFont("Arial");
+  textFont("TimesNewRoman");
 }
 
-function draw() {
+function draw(){
   background(200);
-  textSize(16);
-  text("one small step for a man ...", 20, 60);
-  textSize(32);
-  text("one giant leap for mankind.", 20, 160);
+  //add an if() statement here
+  if(mouseIsPressed) {
+  textSize(20);
+  text("I love chicken", 20, 60);
+} else {
 
-}
+  textSize(40);
+  text("My name is Ariana Golzar", 20, 160);
+  }
+}  
